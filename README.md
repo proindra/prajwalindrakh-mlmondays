@@ -4,7 +4,7 @@ A modern, responsive blog platform for machine learning insights and AI research
 
 ## 🚀 Live Demo
 
-[View Live Site](https://neuralhive.github.io/ml-mondays)
+[View Live Site](https://proindra.github.io/prajwalindrakh-mlmondays/)
 
 ## ✨ Features
 
@@ -204,7 +204,7 @@ Your ML Mondays blog is now ready for GitHub Pages deployment with:
 ### Next Steps:
 1. Push to your GitHub repository
 2. Enable GitHub Pages in repository settings
-3. Your site will be live at `https://yourusername.github.io/prajwalindrakh-mlmondays`
+3. Your site will be live at `https://proindra.github.io/prajwalindrakh-mlmondays`
 
 ---
 
