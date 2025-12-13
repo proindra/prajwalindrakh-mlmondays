@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  background: url('/logo.png') no-repeat center center;
+  background: url('/prajwalindrakh-mlmondays/logo.png') no-repeat center center;
   background-size: 800px auto;
   background-attachment: fixed;
   color: var(--foreground);
