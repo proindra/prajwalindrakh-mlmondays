@@ -5,6 +5,7 @@ import BlogCard from '@/components/BlogCard';
 import ScrollCarousel from '@/components/ScrollCarousel';
 
 export default function Home() {
+  // ML Mondays - Neural Hive Blog Platform
   const posts = getAllPosts();
   const recentPosts = posts.slice(0, 6);
 
