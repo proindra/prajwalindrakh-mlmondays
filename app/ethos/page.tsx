@@ -109,7 +109,7 @@ export default function EthosPage() {
       <div className="page-cta">
         <h2>Ready to Contribute?</h2>
         <p>Join our community of writers who share these values</p>
-        <a href="/write-for-us" className="btn-primary neural-glow">
+        <a href="/write-for-us/" className="btn-primary neural-glow">
           Write for Us
         </a>
       </div>

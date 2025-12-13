@@ -145,7 +145,7 @@ export default function WriteForUsPage() {
             <Mail size={20} />
             Send Your Pitch
           </a>
-          <a href="/ethos" className="btn-secondary">
+          <a href="/ethos/" className="btn-secondary">
             Read Our Guidelines
           </a>
         </div>
