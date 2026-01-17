@@ -49,7 +49,8 @@ export default function LoginPage() {
       }
       
       // Redirect to home
-      window.location.href = '/';
+      const basePath = process.env.NODE_ENV === 'production' ? '/prajwalindrakh-mlmondays' : '';
+      window.location.href = `${basePath}/`;
       
     } catch (error) {
       console.error(`${type} login error:`, error);
