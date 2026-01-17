@@ -21,7 +21,8 @@ export default function PostClient({ post, recommendedPosts }: PostClientProps) 
     const userMode = sessionStorage.getItem('userMode');
     
     if (!userMode) {
-      window.location.href = '/login';
+      const basePath = process.env.NODE_ENV === 'production' ? '/prajwalindrakh-mlmondays' : '';
+      window.location.href = `${basePath}/login`;
       return;
     }
     

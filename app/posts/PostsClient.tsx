@@ -17,7 +17,8 @@ export default function PostsClient({ posts }: PostsClientProps) {
     const userMode = sessionStorage.getItem('userMode');
     
     if (!userMode) {
-      window.location.href = '/login';
+      const basePath = process.env.NODE_ENV === 'production' ? '/prajwalindrakh-mlmondays' : '';
+      window.location.href = `${basePath}/login`;
       return;
     }
     
