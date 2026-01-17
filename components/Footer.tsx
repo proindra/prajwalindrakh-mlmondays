@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="footer-logo">
-              <img src={getImagePath("/logo.png")} alt="Neural Hive Logo" className="footer-logo-image" />
-              <span className="footer-logo-text gradient-text">ML Mondays</span>
+              <img src={getImagePath("/neural-hive-logo.svg")} alt="Neural Hive Logo" className="footer-logo-image" />
+              <span className="footer-logo-text gradient-text">Neural Insights</span>
             </div>
             <p className="footer-description">
               Exploring the frontiers of machine learning, AI research, and neural networks. 

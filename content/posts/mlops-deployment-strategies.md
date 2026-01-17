@@ -4,7 +4,7 @@ excerpt: "Comprehensive guide to deploying machine learning models in production
 author: "DevOps Team"
 date: "2024-11-08"
 tags: ["mlops", "deployment", "kubernetes", "docker", "monitoring"]
-image: "/data.png"
+image: "/icon-data-chart.png"
 ---
 
 # MLOps Deployment Strategies: From Model to Production at Scale

@@ -4,7 +4,7 @@ excerpt: "Learn the fundamentals of reinforcement learning, from basic concepts 
 author: "Dr. Kevin Park"
 date: "2024-11-10"
 tags: ["reinforcement-learning", "q-learning", "policy-gradient", "gym"]
-image: "/images.jpg"
+image: "/bg-tech-abstract.jpg"
 ---
 
 # Reinforcement Learning Basics: Training Agents to Make Decisions

@@ -4,7 +4,7 @@ excerpt: "Master the essential text preprocessing techniques that form the backb
 author: "James Wilson"
 date: "2024-11-15"
 tags: ["nlp", "preprocessing", "tokenization", "text-mining"]
-image: "/data.png"
+image: "/icon-data-chart.png"
 ---
 
 # NLP Text Preprocessing: The Foundation of Language Models

@@ -4,7 +4,7 @@ excerpt: "Master advanced optimization techniques for deep learning, from gradie
 author: "Prof. Michael Zhang"
 date: "2024-11-12"
 tags: ["deep-learning", "optimization", "neural-networks", "training"]
-image: "/data-scientist.webp"
+image: "/hero-data-scientist.webp"
 ---
 
 # Deep Learning Optimization: Training Neural Networks Like a Pro

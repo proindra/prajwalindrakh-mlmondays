@@ -4,7 +4,7 @@ excerpt: "Explore the core concepts of computer vision, from image processing ba
 author: "Dr. Maria Santos"
 date: "2024-11-20"
 tags: ["computer-vision", "opencv", "cnn", "image-processing"]
-image: "/data-scientist.webp"
+image: "/hero-data-scientist.webp"
 ---
 
 # Computer Vision Fundamentals: From Pixels to Perception

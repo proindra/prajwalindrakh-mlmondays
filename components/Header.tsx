@@ -10,6 +10,7 @@ import { getImagePath } from '@/lib/utils';
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [userMode, setUserMode] = useState<string | null>(null);
   const pathname = usePathname();
 
   const navigation = [
@@ -27,6 +28,17 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    setUserMode(sessionStorage.getItem('userMode'));
+  }, []);
+
+  const handleLogout = () => {
+    sessionStorage.removeItem('userMode');
+    sessionStorage.removeItem('guestId');
+    setUserMode(null);
+    window.location.href = '/';
+  };
+
   const isActive = (href: string) => {
     if (href === '/') return pathname === '/';
     return pathname.startsWith(href);
@@ -39,7 +51,7 @@ export default function Header() {
           <Link href="/" className="header-logo">
             <div className="logo-container">
               <Image
-                src={getImagePath("/logo.png")}
+                src={getImagePath("/neural-hive-logo.svg")}
                 alt="Neural Hive Logo"
                 width={64}
                 height={64}
@@ -48,7 +60,7 @@ export default function Header() {
             </div>
             <div className="logo-text">
               <span className="logo-title gradient-text animate-pulse-glow">
-                ML Mondays
+                Neural Insights
               </span>
               <span className="logo-subtitle">Neural Hive</span>
             </div>
@@ -68,6 +80,15 @@ export default function Header() {
           </div>
 
           <div className="desktop-actions">
+            {userMode === 'guest' ? (
+              <button onClick={handleLogout} className="nav-link logout-btn">
+                Logout (Guest)
+              </button>
+            ) : (
+              <Link href="/login" className="nav-link">
+                Sign In
+              </Link>
+            )}
             <Link href="/write-for-us" className="cta-button">
               Write for Us
             </Link>
@@ -93,7 +114,6 @@ export default function Header() {
               ))}
               
               <div className="mobile-nav-footer">
-
                 <Link href="/write-for-us" className="mobile-cta-button" onClick={() => setIsOpen(false)}>
                   Write for Us
                 </Link>

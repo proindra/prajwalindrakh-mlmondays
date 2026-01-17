@@ -1,4 +1,4 @@
-# ML Mondays | Neural Hive
+# Neural Insights | Neural Hive
 
 A modern, responsive blog platform for machine learning insights and AI research, built with Next.js and deployed on GitHub Pages.
 

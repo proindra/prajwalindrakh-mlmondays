@@ -8,19 +8,19 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://neuralhive.github.io/ml-mondays"),
-  title: "ML Mondays | Neural Hive - Machine Learning & AI Insights",
+  title: "Neural Insights | Neural Hive - Machine Learning & AI Insights",
   description: "Weekly machine learning insights, AI research, and neural network tutorials from the Neural Hive community. Explore cutting-edge ML content every Monday.",
   keywords: "machine learning, artificial intelligence, neural networks, deep learning, AI research, ML tutorials, data science",
   authors: [{ name: "Neural Hive" }],
   creator: "Neural Hive",
   publisher: "Neural Hive",
   openGraph: {
-    title: "ML Mondays | Neural Hive",
+    title: "Neural Insights | Neural Hive",
     description: "Weekly machine learning insights and AI research from the Neural Hive community",
     url: "https://neuralhive.github.io/ml-mondays",
-    siteName: "ML Mondays",
+    siteName: "Neural Insights",
     images: [{
-      url: "/logo.png",
+      url: "/neural-hive-logo.svg",
       width: 1200,
       height: 630,
       alt: "ML Mondays - Neural Hive"
@@ -30,9 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ML Mondays | Neural Hive",
+    title: "Neural Insights | Neural Hive",
     description: "Weekly machine learning insights and AI research",
-    images: ["/logo.png"],
+    images: ["/neural-hive-logo.svg"],
   },
   robots: {
     index: true,

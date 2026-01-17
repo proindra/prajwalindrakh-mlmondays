@@ -4,7 +4,7 @@ excerpt: "Learn PyTorch fundamentals through hands-on examples, from basic tenso
 author: "Alex Rodriguez"
 date: "2024-11-11"
 tags: ["pytorch", "tutorial", "deep-learning", "beginners"]
-image: "/AIML.jpg"
+image: "/hero-ml-fundamentals.jpg"
 ---
 
 # Getting Started with PyTorch: A Practical Guide

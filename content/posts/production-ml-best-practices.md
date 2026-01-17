@@ -5,7 +5,7 @@ author: "Sarah Chen"
 date: "2024-11-18"
 tags: ["mlops", "production", "deployment", "monitoring"]
 featured: true
-image: "/data-science22.jpg"
+image: "/hero-data-science.jpg"
 ---
 
 # Production ML Best Practices: From Prototype to Scale

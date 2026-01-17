@@ -6,13 +6,13 @@ import { BlogPost } from '@/types';
 import { getImagePath } from '@/lib/utils';
 
 const carouselItems = [
-  { image: '/ai-working-group.jpg', slug: 'feature-engineering-mastery' },
-  { image: '/AIML.jpg', slug: 'getting-started-with-pytorch' },
-  { image: '/data-science22.jpg', slug: 'production-ml-best-practices' },
-  { image: '/data-scientist.webp', slug: 'deep-learning-optimization' },
-  { image: '/data.png', slug: 'nlp-preprocessing-guide' },
-  { image: '/images.jpg', slug: 'reinforcement-learning-basics' },
-  { image: '/screenshot-2023.webp', slug: 'data-visualization-guide' }
+  { image: '/hero-ai-collaboration.jpg', slug: 'feature-engineering-mastery' },
+  { image: '/hero-ml-fundamentals.jpg', slug: 'getting-started-with-pytorch' },
+  { image: '/hero-data-science.jpg', slug: 'production-ml-best-practices' },
+  { image: '/hero-data-scientist.webp', slug: 'deep-learning-optimization' },
+  { image: '/icon-data-chart.png', slug: 'nlp-preprocessing-guide' },
+  { image: '/bg-tech-abstract.jpg', slug: 'reinforcement-learning-basics' },
+  { image: '/screenshot-platform-2023.webp', slug: 'data-visualization-guide' }
 ];
 
 interface ScrollCarouselProps {

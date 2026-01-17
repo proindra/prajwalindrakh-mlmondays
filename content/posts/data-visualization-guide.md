@@ -4,7 +4,7 @@ excerpt: "Master the art of data visualization to communicate insights effective
 author: "Emma Thompson"
 date: "2024-11-28"
 tags: ["data-visualization", "matplotlib", "seaborn", "plotly"]
-image: "/screenshot-2023.webp"
+image: "/screenshot-platform-2023.webp"
 ---
 
 # Data Visualization for Machine Learning: Tell Your Story with Data

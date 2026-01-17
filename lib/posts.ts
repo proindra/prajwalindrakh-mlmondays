@@ -35,7 +35,7 @@ export function getAllPosts(): BlogPost[] {
         date: matterResult.data.date || new Date().toISOString(),
         tags: matterResult.data.tags || [],
         readTime: Math.ceil(matterResult.content.split(' ').length / 200),
-        image: matterResult.data.image || '/ai-working-group.jpg'
+        image: matterResult.data.image || '/hero-ai-collaboration.jpg'
       } as BlogPost;
     });
 
@@ -58,7 +58,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
       date: matterResult.data.date || new Date().toISOString(),
       tags: matterResult.data.tags || [],
       readTime: Math.ceil(matterResult.content.split(' ').length / 200),
-      image: matterResult.data.image || '/ai-working-group.jpg'
+      image: matterResult.data.image || '/hero-ai-collaboration.jpg'
     };
   } catch {
     return null;

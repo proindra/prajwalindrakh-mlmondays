@@ -4,7 +4,7 @@ excerpt: "Learn advanced feature engineering techniques that can dramatically im
 author: "Dr. Lisa Chang"
 date: "2024-11-22"
 tags: ["feature-engineering", "data-preprocessing", "machine-learning", "pandas"]
-image: "/ai-working-group.jpg"
+image: "/hero-ai-collaboration.jpg"
 ---
 
 # Feature Engineering Mastery: Turning Raw Data into ML Gold

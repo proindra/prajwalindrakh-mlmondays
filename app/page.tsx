@@ -16,7 +16,7 @@ export default function Home() {
         <div className="hero-content">
           <header>
             <h1 className="hero-title">
-              <span className="gradient-text animate-bounce">ML Mondays</span>
+              <span className="gradient-text animate-bounce">Neural Insights</span>
             </h1>
           </header>
           <ScrollCarousel posts={posts} />
