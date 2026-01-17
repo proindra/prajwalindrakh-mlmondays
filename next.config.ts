@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
   basePath: isProd ? '/prajwalindrakh-mlmondays' : '',
-  assetPrefix: isProd ? '/prajwalindrakh-mlmondays' : '',
+  assetPrefix: isProd ? '/prajwalindrakh-mlmondays/' : '',
   images: {
     unoptimized: true
   }
