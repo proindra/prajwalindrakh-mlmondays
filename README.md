@@ -6,7 +6,7 @@ A modern, responsive blog platform for machine learning insights and AI research
 
 ## 🚀 Live Demo
 
-[View Live Site](https://proindra.github.io/prajwalindrakh-mlmondays/)
+[View Live Site](https://proindra.github.io/Neural-Insights/)
 
 ## ✨ Features
 
@@ -78,7 +78,7 @@ my-app/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ml-mondays.git
+   git clone https://github.com/proindra/Neural-Insights.git
    cd my-app
    ```
 
@@ -130,7 +130,7 @@ Automatic deployment to GitHub Pages via GitHub Actions:
    - Builds the static site
    - Deploys to GitHub Pages
 
-3. **Site available at**: `https://yourusername.github.io/prajwalindrakh-mlmondays`
+3. **Site available at**: `https://proindra.github.io/Neural-Insights`
 
 ### Manual Build
 ```bash
@@ -206,7 +206,7 @@ Your ML Mondays blog is now ready for GitHub Pages deployment with:
 ### Next Steps:
 1. Push to your GitHub repository
 2. Enable GitHub Pages in repository settings
-3. Your site will be live at `https://proindra.github.io/prajwalindrakh-mlmondays`
+3. Your site will be live at `https://proindra.github.io/Neural-Insights`
 
 ---
 
