@@ -2,6 +2,8 @@
 
 A modern, responsive blog platform for machine learning insights and AI research, built with Next.js and deployed on GitHub Pages.
 
+🔐 **Authentication Required**: Users must sign in or use guest mode to read blog posts.
+
 ## 🚀 Live Demo
 
 [View Live Site](https://proindra.github.io/prajwalindrakh-mlmondays/)
