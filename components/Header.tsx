@@ -36,7 +36,7 @@ export default function Header() {
     sessionStorage.removeItem('userMode');
     sessionStorage.removeItem('guestId');
     setUserMode(null);
-    window.location.href = '/';
+    window.location.href = '/prajwalindrakh-mlmondays/';
   };
 
   const isActive = (href: string) => {

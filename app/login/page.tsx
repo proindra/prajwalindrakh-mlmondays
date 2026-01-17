@@ -49,7 +49,7 @@ export default function LoginPage() {
       }
       
       // Redirect to home
-      window.location.href = '/';
+      window.location.href = '/prajwalindrakh-mlmondays/';
       
     } catch (error) {
       console.error(`${type} login error:`, error);
