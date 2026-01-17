@@ -36,7 +36,8 @@ export default function Header() {
     sessionStorage.removeItem('userMode');
     sessionStorage.removeItem('guestId');
     setUserMode(null);
-    window.location.href = '/';
+    const basePath = process.env.NODE_ENV === 'production' ? '/prajwalindrakh-mlmondays' : '';
+    window.location.href = `${basePath}/`;
   };
 
   const isActive = (href: string) => {
